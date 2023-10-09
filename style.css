@@ -30,12 +30,20 @@ nav li{
     display: inline;
     margin-left: 15px;
 }
+
+nav a:hover{
+    transition: 0.2s;
+    color: crimson;
+    text-decoration: underline;
+}
+
 nav a{
     text-transform: uppercase;
-    color:black;
+    color: black;
     font-size: 30px;
-    text-decoration: none;
+    font-weight:none ;
 }
+/*fim do header*/
 
 
 
@@ -63,6 +71,7 @@ h2,h3{
 }
 iframe{
     margin-left: 500px;
+
 }
 li{
     margin-left: 40px;
