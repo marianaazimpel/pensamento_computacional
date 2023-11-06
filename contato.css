@@ -38,3 +38,21 @@ select{
 .checkbox{
     margin: 20px 0;
 }
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-image: url(bg.jpg);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.enviar:hover{
+    transition: 0.5s;
+    background-color: rgb(83, 81, 81);
+    transform: scale(1.1);
+    
+}
