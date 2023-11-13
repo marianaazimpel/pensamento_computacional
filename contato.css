@@ -1,34 +1,34 @@
 form{
     width: 940px;
     margin: 0 auto;
+    padding: 10px 10px 10px 10px;
 }
 
-form p{
+form p {
     text-align: center;
     font-size: 22px;
     font-style: italic;
     padding: 2em 0;
 }
 
-form label, form legend{
+form label, form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.input-padrao{
+.input-padrao {
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 50% ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 textarea{
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-legend{
+legend {
     padding: 15px 0 5px;
 }
 select{
@@ -36,23 +36,23 @@ select{
     text-align: center;
 }
 .checkbox{
-    margin: 20px 0;
+   margin: 20px 0; 
 }
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background-image: url(bg.jpg);
-    color: white;
+    background-image:url(bg.jpg);
+    color:white;
     font-weight: bold;
     font-size: 18px;
+    border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.enviar:hover{
+.enviar:hover {
     transition: 0.5s;
-    background-color: rgb(83, 81, 81);
+    background-image: url(logo-branco.png);
     transform: scale(1.1);
-    
 }

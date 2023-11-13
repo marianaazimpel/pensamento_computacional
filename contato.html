@@ -3,47 +3,46 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>contato</title>
+    <title>CONTATO</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contato.css">
-
 </head>
+<body>
 <header>
     <div class="cabecalho">
         <h1>
-            <a href="index.html" title="página inicial">
-                <img src="logo.png" alt="logo da barbearia alura na cor preta."
+            <a href="index.html" title = "Página inicial">
+                <img src="logo.png" alt ="logo da barbearia alura na cor preta."
                 width="177" height="250" id="logo">
             </a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html"> Home</a>
-                </li>
-                <li>
-                    <a href="produtos.html">produto</a>
-                </li>
-                <li>
-                    <a href="contato.html"> contato</a>
-                </li>
-            </ul>
-        </nav>
-
-    </div>
-</header>
-<body>
-    <main>
+            </h1>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+<main>
     <form>
-        <p>os camppos com * são obrigatórios! </p>
-        <label for="nomecompleto">Nome completo*</label>
+        <p>Os campos com * são obrigatórios!</p>
+        <label for="nomecompleto"> Nome completo*</label>
         <input class="input-padrao" type="text" id="nomecompleto"
-        required placeholder="nome e sobrenome">
+        required placeholder="Nome e Sobrenome">
 
-        <label for="email">email</label>
+        <label for="email">Email*</label>
         <input class="input-padrao" type="email" id="email"
         required placeholder="seuemail@dominio.com">
 
@@ -52,84 +51,72 @@
         required placeholder="(xx)xxxxx-xxxx">
 
         <label for="mesagem">Mensagem</label>
-        <textarea cols="70" rows="5" id="Mensagem" placeholder="ex.: gostaria de agendar um corte de cabelo e barba para o próximo sábado."></textarea>
+        <textarea cols="70" rows="5" id="mensagem" placeholder="Ex.:
+        Gostaria de agendar um corte de cabelo e barba para o 
+        próximo sábado."></textarea>
         <fieldset>
-            <legend> Em qual horario prefere seu atendimento</legend>
+            <legend>Em qual horario prefere seu atendimento</legend>
             <select>
-                <option>manhã</option>
-                <option> tarde</option>
-                <option>noite</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
             </select>
         </fieldset>
 
         <fieldset>
-            <legend>Como prefere seu corte?</legend>
+            <legend>Como prefere o nosso contato?</legend>
             <label for="radio-email">
-            <input type="radio" name="contato" value="email"
-            id="radio-email">
-            email
+                <input type="radio" name="contato" value="email"
+                id="radio-email">
+                Email
             </label>
-            <label for="radio-telefone"></label>
-             <input type="radio" nome="contato" value="telefone"
-             id="radiu-telefone">
-             Telefone
-        </label>
+            <label for="radio-telefone">
+                <input type="radio" nome="contato" value="telefone"
+                id="radio-telefone">
+                Telefone
+            </label>
 
-        <label for="radio-whatsapp">
-            <input type="radio" nome="contato" volue="whatsapp"
-            id="radio-whatsapp" checked>
-        whatsapp
-        </label>
+            <label for="radio-whatsapp">
+                <input type="radio" nome="contato" value="whatsapp"
+                id="radio-whatsapp" checked>
+                WhastsApp
+            </label>
         </fieldset>
-        <label class="checked"> gostaria de receber nossas novidades
-             por email?
-            <input type="checkbox" checked>
-        </label>
-
-        <input class="enviar" type="submit" value="Enviar">
-
+        <label class="checked"> Gostaria de receber nossas novidades
+            por Email?
         
+        <input type="checkbox" checked>
+    </label>
+
+    <input class="enviar" type="submit" value="Enviar">
 
     </form>
 </main>
 
 <footer>
     <div class="logo-footer">
-     <img src="logo-branco.png" alt="logo da barbearia ALURA 
-     na cor branca" width="45" height="45">
+        <img src="logo-branco.png" alt="logo da barbearia Alura 
+        na cor branca" width="45" height="45">
     </div>
- 
- 
+    
     <div class="redes">
-       <a href="https://github.com/marianaazimpel"
-       title="marianaazimpel | github" target="_blank">
-    <img src="github-logo.png" alt="logo do github" width="45"
+        <a href="https://github.com/professorjulianosilva"
+        title="professorjulianosilva | github" target="_blank">
+    <img src="github-logo.png" alt="logo do github" width="45" 
     height="45">
-       </a>
- 
-   <ah ref="https://www.instagram.com/marry_zimpel"
-   title=" nome-usuario | instagram " target="_blank">
-   <img src="instagram.logo.png" alt="logo do instagram" width="45" 
-   height="45">
-     </a>
-     </div>
-     
-     <div class="copyring"> desenvolvido mariana linda Zimpel</div>
-     <div class="copyring">&copy; copyright Barbearia alura - 2023</div>
- 
-     </footer> 
-  
+    </a>
+    
+    <a href="https://www.instagram.com/julianosilva17" 
+    title="nome-usuario | instagram " target="_blank">
+    <img src="instagram-logo.png" alt="logo do instagram" width="45"
+    height="45">
+    </a>
+    </div>
+    
+    <div class="copyright"> Desenvolvido por Juliano Silva</div>
+    <div class="copyright">&copy; copyright Barbearia Alura - 2023</div>
+    
+       </footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
