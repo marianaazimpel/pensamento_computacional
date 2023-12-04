@@ -1,0 +1,19 @@
+.imagem-passado{
+    width: 703px;
+    height: 550px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px black;
+}
+
+.imagem-passado ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-passado li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
